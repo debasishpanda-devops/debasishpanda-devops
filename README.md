@@ -1,6 +1,6 @@
 # Hi, I'm Debasish Panda 👋
 
-📍 **India** | 🐍 **Python Backend + DevOps Engineer** | ☁️ **Building deployable systems with Django, FastAPI, Flask, AWS, Docker, and Jenkins**
+📍 **India** | 🐍 **Python Backend + DevOps Engineer** | ☁️ **Building deployable systems with Django, FastAPI, Flask, AWS, Docker, and Jenkins** | 🤖 **Production RAG & LLM apps**
 
 > I build backend applications in Python and focus on making them deployable, automatable, and production-ready. I like the intersection of application development, infrastructure, CI/CD, and cloud operations.
 
@@ -14,10 +14,12 @@
 | **Containers & Deployment** | ![Docker](https://img.shields.io/badge/-Docker-2496ED?style=flat-square&logo=docker&logoColor=white) ![Docker Compose](https://img.shields.io/badge/-Compose-1D63ED?style=flat-square&logo=docker&logoColor=white) ![Kubernetes](https://img.shields.io/badge/-Kubernetes-326CE5?style=flat-square&logo=kubernetes&logoColor=white) ![Nginx](https://img.shields.io/badge/-Nginx-009639?style=flat-square&logo=nginx&logoColor=white) |
 | **CI/CD & Automation** | ![Jenkins](https://img.shields.io/badge/-Jenkins-D24939?style=flat-square&logo=jenkins&logoColor=white) ![GitHub Actions](https://img.shields.io/badge/-GitHub%20Actions-2088FF?style=flat-square&logo=github-actions&logoColor=white) ![Ansible](https://img.shields.io/badge/-Ansible-EE0000?style=flat-square&logo=ansible&logoColor=white) ![Git](https://img.shields.io/badge/-Git-F05032?style=flat-square&logo=git&logoColor=white) ![Linux](https://img.shields.io/badge/-Linux-FCC624?style=flat-square&logo=linux&logoColor=black) ![Bash](https://img.shields.io/badge/-Bash-121011?style=flat-square&logo=gnubash&logoColor=white) |
 | **Databases & Storage** | ![PostgreSQL](https://img.shields.io/badge/-PostgreSQL-4169E1?style=flat-square&logo=postgresql&logoColor=white) ![MySQL](https://img.shields.io/badge/-MySQL-4479A1?style=flat-square&logo=mysql&logoColor=white) ![Redis](https://img.shields.io/badge/-Redis-DC382D?style=flat-square&logo=redis&logoColor=white) |
+| **AI / LLM** | ![LangGraph](https://img.shields.io/badge/-LangGraph-1C3C3C?style=flat-square&logo=langchain&logoColor=white) ![Qdrant](https://img.shields.io/badge/-Qdrant-DC244C?style=flat-square&logo=qdrant&logoColor=white) ![LiteLLM](https://img.shields.io/badge/-LiteLLM-4B32C3?style=flat-square&logo=openai&logoColor=white) ![NeMo Guardrails](https://img.shields.io/badge/-NeMo%20Guardrails-76B900?style=flat-square&logo=nvidia&logoColor=white) ![OpenRouter](https://img.shields.io/badge/-OpenRouter-6566F1?style=flat-square&logo=openai&logoColor=white) ![Open WebUI](https://img.shields.io/badge/-Open%20WebUI-000000?style=flat-square&logo=openai&logoColor=white) ![Logfire](https://img.shields.io/badge/-Logfire-E520E9?style=flat-square&logo=pydantic&logoColor=white) |
 | **Frontend** | ![HTML5](https://img.shields.io/badge/-HTML5-E34F26?style=flat-square&logo=html5&logoColor=white) ![CSS3](https://img.shields.io/badge/-CSS3-1572B6?style=flat-square&logo=css3&logoColor=white) ![JavaScript](https://img.shields.io/badge/-JavaScript-F7DF1E?style=flat-square&logo=javascript&logoColor=black) |
 
 ## Current Projects
 
+- 🤖 **[devops-rag](https://github.com/debasishpanda-devops/devops-rag)** - Production-style RAG over ~100k DevOps articles: LangGraph agent, Qdrant vector search + reranking, NeMo Guardrails, LiteLLM gateway, semantic cache, LLM-judge evals, and Docker Compose deployment
 - 💸 **[finance_app](https://github.com/debasishpanda-devops/finance_app)** - Containerized application with backend, frontend, Nginx, and Docker Compose deployment
 - ✅ **[Todo-app-django-react](https://github.com/debasishpanda-devops/Todo-app-django-react)** - Django and React application with CI/CD and deployment automation
 - 🚀 **[production-deployment](https://github.com/debasishpanda-devops/production-deployment)** - Jenkins pipeline and Kubernetes manifests for production-style deployments
@@ -39,6 +41,13 @@
 - Reverse proxy and web serving with `Nginx`
 - Linux server setup and production deployment workflows
 - AWS networking and infrastructure patterns
+
+### AI / RAG Focus
+
+- End-to-end RAG pipelines: data cleaning, chunking, embeddings, and vector search with `Qdrant`
+- Retrieval quality: reranking, query rewriting, and measuring answers with LLM-judge evals
+- LLM agents with `LangGraph`, guardrails with `NeMo Guardrails`, and an LLM gateway with `LiteLLM`
+- Running LLM apps like production services: caching, cost tracking, and tracing with `Logfire`
 
 ### Cloud and Infrastructure Work
 
@@ -63,6 +72,7 @@
 - **Building stronger backend portfolio projects** - Focusing on Python applications that look closer to production systems
 - **Improving deployment maturity** - Adding CI/CD, containers, reverse proxies, and deployment automation
 - **Learning by shipping** - Treating each project as a chance to combine backend engineering with DevOps practice
+- **Building production RAG systems** - Applying DevOps practice to LLM apps: gateways, guardrails, evals, caching, and observability
 - **Strengthening AWS understanding** - Working on architecture patterns, security boundaries, and cloud deployment flows
 
 ## GitHub Stats
